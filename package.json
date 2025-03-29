@@ -1,6 +1,6 @@
 {
 	"packageManager": "pnpm",
-	"name": "Moris — Social Links",
+	"name": "Moris-social-links",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
