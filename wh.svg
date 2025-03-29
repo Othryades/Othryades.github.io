@@ -1,0 +1,31 @@
+<!-- 50x50 Swirl Logo (SVG) -->
+<svg 
+  width="50" 
+  height="50" 
+  viewBox="0 0 50 50"
+  xmlns="http://www.w3.org/2000/svg"
+  style="border-radius: 50%; overflow: hidden;"
+>
+  <!-- Radial gradient for a cosmic effect -->
+  <defs>
+    <radialGradient id="gradientSwirl" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ffd700" />      <!-- Gold center -->
+      <stop offset="100%" stop-color="#ff7f50" />    <!-- Coral outer -->
+    </radialGradient>
+  </defs>
+
+  <!-- Background circle with gradient fill -->
+  <circle cx="25" cy="25" r="25" fill="url(#gradientSwirl)" />
+
+  <!-- A simple swirl path -->
+  <path
+    d="M 10 25 
+       C 10 10, 40 10, 40 25 
+       S 10 40, 10 25"
+    fill="none"
+    stroke="#ffffff"  <!-- White swirl -->
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
