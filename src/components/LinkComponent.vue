@@ -104,7 +104,7 @@ export default {
 }
 
 .hover-paint {
-    min-width: 50%;
+    min-width: 80%;
     height: 3em;
     border-radius: 0.2rem;
     border: none;
