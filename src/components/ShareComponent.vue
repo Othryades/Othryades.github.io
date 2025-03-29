@@ -83,7 +83,7 @@ export default {
             waShare: 'https://web.whatsapp.com/send?text=Check+out+this+Link%21+-+https://www.webdev.com',
             msnShare: 'https://www.messenger.com/new',
             emShare: 'mailto:?subject=Hey%20check%20this%20out&body=https://www.webdev.com',
-            copyShare: 'channels.hr-webdev.com'
+            copyShare: 'https://othryades.github.io/'
         };
     },
     methods: {
