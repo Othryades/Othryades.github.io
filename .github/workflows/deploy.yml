@@ -3,7 +3,7 @@ name: Deploy Vue App to GitHub Pages
 on:
   push:
     branches:
-      - master  # or 'master' if that's your default
+      - master
 
 jobs:
   build-and-deploy:
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: pnpm
+          cache: 'pnpm'
 
       - name: Install pnpm
         run: npm install -g pnpm
