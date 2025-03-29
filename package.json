@@ -42,5 +42,10 @@
 		},
 		"rules": {}
 	},
-	"browserslist": ["> 1%", "last 2 versions", "not dead", "not ie 11"]
+	"browserslist": ["> 1%", "last 2 versions", "not dead", "not ie 11"],
+	"pnpm": {
+  "overrides": {
+    "cross-spawn": "^6.0.6"
+  }
+}
 }
