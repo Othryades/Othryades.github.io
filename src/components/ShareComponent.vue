@@ -57,7 +57,7 @@
                 </a>
 
                 <div class="card-link-copy" @click.prevent="onCopy()">
-                    <img width="20" height="20" src="/logo.png" />
+                    <img width="20" height="20" src="/webp.png" />
                     <p id="copyTextEl">{{ copyShare }}</p>
                     <div>
                         <fa-icon class="copy-icon" icon="fa-solid fa-copy" />

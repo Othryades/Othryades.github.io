@@ -4,7 +4,7 @@
         <main class="main-content">
             <ShareComponent />
             <!-- <HeaderComponent /> -->
-            <img alt="App logo" src="/logo.png" height="150" class="app-logo" />
+            <img alt="App logo" src="/logo.webp" height="150" class="app-logo" />
             <!-- <ProfilePage /> -->
             <SocialMediaLinks title="@moriswebdeveloper" description="Full Stack Web Developer | Technical Support Engineer" />
         </main>

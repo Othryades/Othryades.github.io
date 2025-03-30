@@ -20,14 +20,14 @@
         </div>
         <h3 class="subtitle">Learn More</h3>
         <div class="link-container">
-            <LinkComponent image="/logo.png" title="personal website I" url="https://moris-dev.surge.sh/" />
-            <LinkComponent image="/logo.png" title="personal website II" url="https://moris-dev.surge.sh/" />
+            <LinkComponent image="/logo.webp" alt="logo" title="personal website I" url="https://moris-dev.surge.sh/" />
+            <LinkComponent image="/logo.webp" alt="logo" title="personal website II" url="https://moris-dev.surge.sh/" />
             <!-- <LinkComponent image="/favicon.ico" title="We built with VueJS.org Framework V3" url="https://vuejs.org/" /> -->
         </div>
         <h3 class="subtitle">Projects</h3>
         <div class="link-container">
             <!-- <LinkComponent image="/qr-code.png" title="QR Code Generator" url="" /> -->
-            <LinkComponent image="/image.png" title="WormGate" url="https://modern-area-incalculable.on-fleek.app/" />
+            <LinkComponent image="/image.webp" alt="logo" title="WormGate" url="https://modern-area-incalculable.on-fleek.app/" />
             
         </div>
     </div>
