@@ -3,14 +3,13 @@
 
 <img src="preview.gif" alt="product-screenshot" title="Social Media Links Show case" height="400"/>
 
-Also this project it is a great way to share your social media links with your friends and followers with a single link.
+This project it is a great way to share your social media links with your friends and followers with a single link.
 
 ### Built With
 
-* 🌲 Vue.js
-* 🐙 Github Actions
-* 💻 VS Code
+* Vue.js 3
 * 📦 Pnpm
+* 🐙 Github Actions
 
 <!-- GETTING STARTED -->
 ## Getting Started
