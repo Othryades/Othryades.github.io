@@ -42,6 +42,8 @@ export default {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .main-content {
@@ -67,11 +69,15 @@ html {
     box-sizing: border-box;
     background-color: var(--bg-color);
     color: var(--font-color);
+    overflow-x: hidden;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--font-color);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 a {

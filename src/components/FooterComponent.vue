@@ -34,7 +34,8 @@ export default {
     padding: 1.5rem 0;
     margin-top: auto;
     background-color: var(--bg-color);
-    /* box-shadow: 0 -2px 10px var(--box-shadow-top-color); */
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .footer-content {
@@ -46,6 +47,7 @@ export default {
     align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
+    box-sizing: border-box;
 }
 
 .footer-section {
