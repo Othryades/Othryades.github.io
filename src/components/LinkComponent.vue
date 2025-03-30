@@ -1,6 +1,6 @@
 <template>
     <a class="card-link hover-paint" @mouseover="hovering = true" @mouseout="hovering = false" :href="url" target="_blank" rel="noopener noreferrer">
-        <img class="link-img" width="20" height="20" :src="image" />
+        <img class="link-img" alt="logo" width="20" height="20" :src="image" />
         <p class="link-title">{{ title }}</p>
     </a>
 </template>
