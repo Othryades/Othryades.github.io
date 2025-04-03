@@ -57,7 +57,13 @@
                 </a>
 
                 <div class="card-link-copy" @click.prevent="onCopy()">
-                    <img width="20" height="20" src="/logo.webp" />
+                    <img 
+                        width="32" 
+                        height="32" 
+                        src="/logo.webp" 
+                        alt="Copy link icon"
+                        loading="lazy"
+                    />
                     <p id="copyTextEl">{{ copyShare }}</p>
                     <div>
                         <fa-icon class="copy-icon" icon="fa-solid fa-copy" />

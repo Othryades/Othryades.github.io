@@ -1,6 +1,13 @@
 <template>
     <a class="card-link hover-paint" @mouseover="hovering = true" @mouseout="hovering = false" :href="url" target="_blank" rel="noopener noreferrer">
-        <img class="link-img" alt="logo" width="20" height="20" :src="image" />
+        <img 
+            class="link-img" 
+            :alt="alt || title" 
+            :src="image"
+            width="32" 
+            height="32"
+            loading="lazy" 
+        />
         <p class="link-title">{{ title }}</p>
     </a>
 </template>
@@ -20,7 +27,8 @@ export default {
     props: {
         image: String,
         title: String,
-        url: String
+        url: String,
+        alt: String
     },
     methods: {
         shareDialog() {
@@ -55,8 +63,9 @@ export default {
 }
 
 .link-img {
-    width: 2rem;
-    height: auto;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
 }
 
 .link-title {
