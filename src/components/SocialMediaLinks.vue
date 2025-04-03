@@ -27,7 +27,7 @@
         <h3 class="subtitle">Projects</h3>
         <div class="link-container">
             <!-- <LinkComponent image="/qr-code.png" title="QR Code Generator" url="" /> -->
-            <LinkComponent image="/image.webp" alt="logo" title="WormGate" url="https://modern-area-incalculable.on-fleek.app/" />
+            <LinkComponent image="/image.webp" alt="logo" title="WormGate" url="https://rhythmic-daybreak-square.on-fleek.app//" />
             
         </div>
     </div>
