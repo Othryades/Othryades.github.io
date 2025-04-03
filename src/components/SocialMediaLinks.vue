@@ -20,8 +20,8 @@
         </div>
         <h3 class="subtitle">Learn More</h3>
         <div class="link-container">
-            <LinkComponent image="/logo.webp" alt="logo" title="personal website I" url="https://moris-dev.surge.sh/" />
-            <LinkComponent image="/logo.webp" alt="logo" title="personal website II" url="https://moris-dev.surge.sh/" />
+            <LinkComponent image="/logo.webp" alt="logo" title="personal website I" url="https://moriswebdev.netlify.app//" />
+            <LinkComponent image="/logo.webp" alt="logo" title="personal website II" url="https://moriswebdev.netlify.app//" />
             <!-- <LinkComponent image="/favicon.ico" title="We built with VueJS.org Framework V3" url="https://vuejs.org/" /> -->
         </div>
         <h3 class="subtitle">Projects</h3>

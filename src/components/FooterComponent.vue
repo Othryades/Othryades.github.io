@@ -68,7 +68,7 @@ export default {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .heart {
