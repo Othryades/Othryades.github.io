@@ -1,17 +1,17 @@
 <template>
     <div class="float-container">
-        <a class="share-btn" @click="show = !show">
+        <button class="share-btn" @click="show = !show">
             <fa-icon icon="fa-solid fa-share" />
-        </a>
+        </button>
     </div>
 
     <div v-if="show" class="dialog-container">
         <div class="dialog">
             <div class="dialog-header">
                 <h4>Share this</h4>
-                <a class="close-btn" @click="show = !show">
+                <button class="close-btn" @click="show = !show">
                     <fa-icon icon="fa-solid fa-x" />
-                </a>
+                </button>
             </div>
             <div class="dialog-body">
                 <a class="card-link-share" :href="fbShare" target="_blank" rel="noopener noreferrer">
@@ -57,7 +57,7 @@
                 </a>
 
                 <div class="card-link-copy" @click.prevent="onCopy()">
-                    <img width="20" height="20" src="/webp.png" />
+                    <img width="20" height="20" src="/logo.webp" />
                     <p id="copyTextEl">{{ copyShare }}</p>
                     <div>
                         <fa-icon class="copy-icon" icon="fa-solid fa-copy" />
@@ -124,6 +124,9 @@ export default {
     border-radius: 50%;
     background: var(--bg-color);
     box-shadow: 3px 3px 7px var(--box-shadow-top-color), -3px -3px 7px var(--box-shadow-bottom-color);
+    border: none;
+    color: var(--font-color);
+    cursor: pointer;
 }
 
 .share-btn:hover {
@@ -173,12 +176,22 @@ export default {
     top: 0;
     right: 0.5rem;
     color: var(--font-color);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px var(--box-shadow-top-color), -2px -2px 5px var(--box-shadow-bottom-color);
 }
 
 .close-btn:hover {
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .dialog-body {
