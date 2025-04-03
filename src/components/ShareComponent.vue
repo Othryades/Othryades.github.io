@@ -1,6 +1,6 @@
 <template>
     <div class="float-container">
-        <button class="share-btn" @click="show = !show">
+        <button class="share-btn" @click="show = !show" aria-label="Share content">
             <fa-icon icon="fa-solid fa-share" />
         </button>
     </div>
@@ -9,7 +9,7 @@
         <div class="dialog">
             <div class="dialog-header">
                 <h4>Share this</h4>
-                <button class="close-btn" @click="show = !show">
+                <button class="close-btn" @click="show = !show" aria-label="Close sharing dialog">
                     <fa-icon icon="fa-solid fa-x" />
                 </button>
             </div>
