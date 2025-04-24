@@ -21,24 +21,24 @@
         <h3 class="subtitle">Learn More</h3>
         <div class="link-container">
             <LinkComponent 
-                image="/logo.webp" 
+                image="/favicon2.ico" 
                 alt="Personal website logo" 
                 title="personal website I" 
                 url="https://moriswebdev.netlify.app" 
             />
-            <LinkComponent 
+            <!-- <LinkComponent 
                 image="/logo.webp" 
                 alt="Personal website logo" 
                 title="personal website II" 
                 url="https://moriswebdev.netlify.app" 
-            />
+            /> -->
             <!-- <LinkComponent image="/favicon.ico" title="We built with VueJS.org Framework V3" url="https://vuejs.org/" /> -->
         </div>
         <h3 class="subtitle">Projects</h3>
         <div class="link-container">
             <!-- <LinkComponent image="/qr-code.png" title="QR Code Generator" url="" /> -->
             <LinkComponent 
-                image="/image.webp" 
+                image="/wormhole.webp" 
                 alt="WormGate project logo" 
                 title="WormGate" 
                 url="https://rhythmic-daybreak-square.on-fleek.app" 
@@ -103,6 +103,7 @@ li {
 
 .social-link:hover {
     transform: scale(1.1);
+    color: var(--secondary-color);
 }
 
 .link-container {

@@ -51,7 +51,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 .app-logo {
