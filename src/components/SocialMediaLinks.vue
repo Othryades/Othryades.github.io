@@ -41,7 +41,7 @@
                 image="/wormhole.webp" 
                 alt="WormGate project logo" 
                 title="WormGate" 
-                url="https://rhythmic-daybreak-square.on-fleek.app" 
+                url="https://wormgate.on-fleek.app"  
             />
             <LinkComponent 
                 image="/output-onlinepngtools.webp" 
