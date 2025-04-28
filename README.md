@@ -66,4 +66,4 @@ pnpm run build:app
 
 💡 You can use this on your social media bio or website.
 
-Project Link: [https://github.com/Othryades/Othryades.github.io](https://github.com/Othryades/Othryades.github.io)
+Project Link: [https://othryades.github.io/](https://othryades.github.io/)
