@@ -3,11 +3,13 @@
         <div class="footer-content">
             <div class="footer-section">
                 <p class="made-with">
-                    Made with <span class="heart">❤️</span> using 
-                    <a href="https://vitejs.dev" target="_blank" class="tech-link">
+                    Made with 
+                    <!-- <span class="heart">❤️</span>  -->
+                    <!-- using  -->
+                    <!-- <a href="https://vitejs.dev" target="_blank" class="tech-link">
                         <img src="/vite.svg" alt="Vite" class="tech-logo" />
                     </a>
-                    +
+                    + -->
                     <a href="https://vuejs.org" target="_blank" class="tech-link">
                         <img src="/vue.svg" alt="Vue" class="tech-logo" />
                     </a>
