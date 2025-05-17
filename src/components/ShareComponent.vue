@@ -28,7 +28,7 @@
 
                 <a class="card-link-share" :href="twShare" target="_blank" rel="noopener noreferrer">
                     <fa-icon class="box tw-brand" icon="fa-brands fa-twitter" />
-                    <p>Share on Twitter</p>
+                    <p>Share on X</p>
                     <fa-icon icon="fa-solid fa-chevron-right"></fa-icon>
                 </a>
 

@@ -23,7 +23,7 @@
             <LinkComponent 
                 image="/favicon2.ico" 
                 alt="Personal website logo" 
-                title="personal website I" 
+                title="personal website" 
                 url="https://moriswebdev.netlify.app" 
             />
             <!-- <LinkComponent 
@@ -42,6 +42,12 @@
                 alt="WormGate project logo" 
                 title="WormGate" 
                 url="https://wormgate.on-fleek.app"  
+            />
+            <LinkComponent 
+                image="/besu.png" 
+                alt="WormGate project logo" 
+                title="Linea Peers Watchers Map" 
+                url="https://lineapeerswatchersmap.netlify.app/"  
             />
             <LinkComponent 
                 image="/output-onlinepngtools.webp" 
