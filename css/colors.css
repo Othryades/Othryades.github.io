@@ -14,8 +14,21 @@
   --primary-color: #305dfc;
   --secondary-color: #1c41ab;
   --accent-color: #f7f7f7;
-  --font-color: #00ff9d;
-  --bg-color: #2c3e50;
-  --box-shadow-top-color: #253544;
-  --box-shadow-bottom-color: #33475c;
+  --font-color: #3fb681;
+  --bg-color: #14161f;
+  --box-shadow-top-color: #25354496;
+  --box-shadow-bottom-color: #25354496;
+  --box-shadow-color: {
+    #app:before {
+      content: "";
+      position: absolute;
+      top: -10%;
+      left: -10%;
+      width: 120%;
+      height: 120%;
+      background: radial-gradient(circle at 20% 10%, rgba(97, 25, 239, .1), transparent 30%), radial-gradient(circle at 80% 30%, rgba(16, 185, 129, .08), transparent 25%);
+      z-index: 0;
+      pointer-events: none;
+  }
+  }
 }
