@@ -119,7 +119,7 @@ export default {
 <style scoped>
 .float-container {
     position: fixed;
-    top: 2rem;
+    top: 1.5rem;
     right: calc(100vw - 90% - 1rem);
     z-index: 99;
 }
