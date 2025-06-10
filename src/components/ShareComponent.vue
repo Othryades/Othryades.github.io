@@ -191,7 +191,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 2px 5px var(--box-shadow-top-color), -2px -2px 5px var(--box-shadow-bottom-color);
+    /* box-shadow: 2px 2px 5px var(--box-shadow-top-color), -2px -2px 5px var(--box-shadow-bottom-color); */
 }
 
 .close-btn:hover {
