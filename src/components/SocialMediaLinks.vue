@@ -36,7 +36,7 @@
         <!-- <h3 class="subtitle">Learn More</h3> -->
         <div class="link-container">
             <LinkComponent 
-                image="/favicon2.ico" 
+                image="/world-wide-web.png" 
                 alt="Personal website logo" 
                 title="personal website" 
                 url="https://moriswebdev.netlify.app" 
