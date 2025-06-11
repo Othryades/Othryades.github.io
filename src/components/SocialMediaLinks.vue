@@ -4,21 +4,36 @@
         <p class="description">{{ description }}</p>
         <div class="links-display">
             <div class="social-link-container">
-                <a class="github-link social-link" href="http://www.github.com/othryades" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <!-- <a class="github-link social-link" href="http://www.github.com/othryades" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
                     <fa-icon icon="fa-brands fa-2xl fa-github" />
                 </a>
                 <a class="linkedin-link social-link" href="https://www.linkedin.com/in/moris-iarossi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                     <fa-icon icon="fa-brands fa-2xl fa-linkedin" />
-                </a>
-                <a class="facebook-link social-link" href="https://www.facebook.com/moris.iarossi/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
+                </a> -->
+                <!-- <a class="facebook-link social-link" href="https://www.facebook.com/moris.iarossi/" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
                     <fa-icon icon="fa-brands fa-facebook" />
-                </a>
+                </a> -->
                 <!-- <a class="social-link" href="https://web.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer">
                     <fa-icon icon="fa-brands fa-lg fa-whatsapp" />
                 </a> -->
             </div>
+            <div class="link-container">
+            <LinkComponent 
+                image="/github.png" 
+                alt="Personal website logo" 
+                title="GitHub" 
+                url="" 
+            />
+            <LinkComponent 
+                image="/linkedin.png" 
+                alt="Personal website logo" 
+                title="Linkedin" 
+                url="" 
+            />
+            <!-- <LinkComponent image="/favicon.ico" title="We built with VueJS.org Framework V3" url="https://vuejs.org/" /> -->
         </div>
-        <h3 class="subtitle">Learn More</h3>
+        </div>
+        <!-- <h3 class="subtitle">Learn More</h3> -->
         <div class="link-container">
             <LinkComponent 
                 image="/favicon2.ico" 
