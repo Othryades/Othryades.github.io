@@ -56,7 +56,7 @@
                 image="/wormhole.webp" 
                 alt="WormGate project logo" 
                 title="WormGate" 
-                url="https://wormgate.on-fleek.app"  
+                url="https://wormgate.netlify.app/"  
             />
             <LinkComponent 
                 image="/besu.png" 
