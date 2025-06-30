@@ -22,13 +22,13 @@
                 image="/github.png" 
                 alt="Personal website logo" 
                 title="GitHub" 
-                url="" 
+                url="http://www.github.com/othryades" 
             />
             <LinkComponent 
                 image="/linkedin.png" 
                 alt="Personal website logo" 
                 title="Linkedin" 
-                url="" 
+                url="https://www.linkedin.com/in/moris-iarossi/" 
             />
             <!-- <LinkComponent image="/favicon.ico" title="We built with VueJS.org Framework V3" url="https://vuejs.org/" /> -->
         </div>
