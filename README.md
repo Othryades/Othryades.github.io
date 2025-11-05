@@ -3,7 +3,7 @@
 
 <img src="preview.gif" alt="product-screenshot" title="Social Media Links Show case" height="400"/>
 
-This project it is a great way to share your social media links with your friends and followers with a single link, in a linkthree style. Made with Vue.js.
+This project it is a great way to share your social media links with your friends and followers with a single link, in a Linktree style. Made with Vue.js.
 
 ### Built With
 
