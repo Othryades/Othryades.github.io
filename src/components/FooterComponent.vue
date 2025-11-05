@@ -10,7 +10,7 @@
                         <img src="/vite.svg" alt="Vite" class="tech-logo" />
                     </a>
                     + -->
-                    <a href="https://vuejs.org" target="_blank" class="tech-link">
+                    <a href="https://github.com/Othryades/Othryades.github.io" target="_blank" class="tech-link">
                         <img src="/vue.svg" alt="Vue" class="tech-logo" />
                     </a>
                 </p>
